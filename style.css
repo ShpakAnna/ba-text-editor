@@ -24,6 +24,10 @@ a{
 	font-family: 'FuturaPT', Arial, sans-serif;
 	margin: 0.57em;
 }
+.article-author{
+	text-transform: uppercase;
+	letter-spacing: 0.219em;
+}
 .article-desc{
 	font-family: Georgia, serif;
 	font-size: 30px;
@@ -42,4 +46,108 @@ a{
 article{
 	    margin-block-start: 0em;
     margin-block-end: 0em;
+}
+body{
+	position: relative;
+}
+.form-editor{
+	position: absolute;
+	right: 0;
+	top: 47px;
+	max-width: 878px;
+	width: 80%;
+
+}
+.form-title{
+	height: 188px;
+	background-color: #181818;
+	padding: 50px 0 50px 50px;
+	position: relative;
+}
+.form-input{
+	display: block;
+	background-color: transparent;
+	border: none;
+	border-bottom: 4px solid #303030;
+	font-size: 48px;
+	font-family: 'Playfair Display', serif;
+	color: #FFF;
+	line-height: 1.9583em;
+	width: 100%;
+}
+.form-label{
+	text-transform: uppercase;
+	color: #767676;
+	position: absolute;
+	left: 60px;
+	top: 50px;
+}
+.form-bottom{
+	height: 78px;
+	background-color: #f9b62d;
+	padding: 0 43px;
+	display: flex;
+	align-items: center;
+	width: calc(100% - 65px);
+	margin-left: 65px;
+
+
+}
+.form-text-decoration{
+	background-color: transparent;
+	background: none;
+	height: 33px;
+	width: 33px;
+	opacity: .5;
+	color: #FFF;
+	padding: 0;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+.form-text-decoration:hover{
+	opacity: 1;
+}
+.form-text-decoration:focus{
+	opacity: 1;
+}
+.text-decoration_color{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.text-decoration_uppercase
+
+.text-decoration_bold{
+	font-weight: bold;
+}
+.text-decoration_italic{
+	font-style: italic;
+	text-transform: uppercase;
+}
+.text-decoration_underline{
+	text-decoration: underline;
+}
+
+.text-decoration_left span:nth-child(even){
+	width: 20px;
+}
+
+
+.text-decoration_center
+.text-decoration_right
+.text-decoration_image
+.text-decoration_justify
+small{
+	font-size: 60%;
+}
+.form-text-decoration span{
+	display: block;
+	height: 3px;
+	margin-bottom: 3px;
+	background-color: #FFF;
+}
+.form-text-decoration span:last-child{
+	margin-bottom: 0;
+}
+.form-text-decoration + .form-text-decoration{
+	margin-left: 32px;
 }
